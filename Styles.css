@@ -325,13 +325,13 @@ body {
 }
 /* certificados */
 .certificados {
-    list-style: none; /* quita los puntos normales */
+    list-style: none; 
     padding-left: 0;
 }
 
 /* PUNTO PERSONALIZADO */
 .certificados li::before {
-    content: "▹ "; /* puedes cambiarlo */
+    content: "▹ "; 
     color: #00ff00;
 }
 
@@ -458,7 +458,7 @@ body {
 /* GRID DE PROYECTOS */
 .cards-proyectos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 👈 3 en fila */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
